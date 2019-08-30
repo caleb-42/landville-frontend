@@ -18,23 +18,20 @@ import { InputErrorsComponent } from 'src/app/modules/shared/input-errors/input-
     FormsModule,
     HttpClientModule
   ],
-  providers: [
-    LocalStorageService,
-  ],
+  providers: [LocalStorageService],
   declarations: [
     FooterComponent,
     NavbarComponent,
     TopbarComponent,
     CardComponent,
-    InputErrorsComponent,
+    InputErrorsComponent
   ],
   exports: [
     FooterComponent,
     NavbarComponent,
     TopbarComponent,
     CardComponent,
-    InputErrorsComponent,
-  ],
+    InputErrorsComponent
+  ]
 })
-export class SharedModule {
-}
+export class SharedModule {}

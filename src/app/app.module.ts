@@ -29,10 +29,9 @@ import { AuthenticationModule } from 'src/app/modules/authentication/authenticat
 import { PropertyDetailsComponent } from 'src/app/components/property-details/property-details.component';
 import { PropertyDetailComponent } from 'src/app/components/property-details/property-detail/property-detail.component';
 import { ClientAdminComponent } from 'src/app/components/property-details/client-admin/client-admin.component';
-import {
-  PropertyDescriptionComponent
-} from 'src/app/components/property-details/property-description/property-description.component';
+import { PropertyDescriptionComponent } from 'src/app/components/property-details/property-description/property-description.component';
 import { ClientReviewsComponent } from 'src/app/components/client-reviews/client-reviews.component';
+import { ConfirmationModalComponent } from 'src/app/components/property-details/confirmation-modal/confirmation-modal.component';
 
 @NgModule({
   imports: [
@@ -63,8 +62,8 @@ import { ClientReviewsComponent } from 'src/app/components/client-reviews/client
     ClientAdminComponent,
     PropertyDescriptionComponent,
     ReviewsComponent,
-    ClientReviewsComponent
-
+    ClientReviewsComponent,
+    ConfirmationModalComponent
   ],
   providers: [
     LocalStorageService,
