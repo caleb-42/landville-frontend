@@ -33,6 +33,7 @@ import { ClientAdminComponent } from 'src/app/components/property-details/client
 import {
   PropertyDescriptionComponent
 } from 'src/app/components/property-details/property-description/property-description.component';
+import { AddPropertyComponent } from './components/properties/add-property/add-property.component';
 
 @NgModule({
   imports: [
@@ -60,6 +61,7 @@ import {
     PropertiesComponent,
     NoPropertiesComponent,
     PropertyDetailsComponent,
+    AddPropertyComponent,
     PropertyDetailComponent,
     ClientAdminComponent,
     PropertyDescriptionComponent,
